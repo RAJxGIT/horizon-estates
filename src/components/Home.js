@@ -63,7 +63,7 @@ const Home = () => {
         
           <TypeAnimation
             sequence={[
-              'Welcome to Horizon Estates',
+              'Welcome to Samrat Estates',
               1000,
               'Find Your Dream Property',
               1000,

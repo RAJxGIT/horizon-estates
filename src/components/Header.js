@@ -31,7 +31,7 @@ const Header = () => {
         {/* Left Section - Logo & Title */}
         <div className="flex items-center font-bold italic text-3xl space-x-2">
           <img src="/assets/logo.png" alt="Logo" className="h-16 w-auto" />
-          <span className="text-2xl tracking-wide">HORIZON ESTATES</span>
+          <span className="text-2xl tracking-wide">SAMRAT ESTATES</span>
         </div>
 
         {/* Right Section - Desktop Navigation */}
