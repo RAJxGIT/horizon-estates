@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Typical from "react-typical";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   // useEffect(() => {
@@ -60,14 +60,17 @@ const Home = () => {
         {/* Content */}
         <div className="relative z-10 text-center">
           <h1 className="text-5xl font-bold mb-4">
-            <Typical
-              steps={[
-                "Welcome to Horizon Estates", 2000,
-                "Find Your Dream Home With Us", 2000
-              ]}
-              loop={Infinity}
-              wrapper="span"
-            />
+        
+          <TypeAnimation
+            sequence={[
+              'Welcome to Horizon Estates',
+              1000,
+              'Find Your Dream Property',
+              1000,
+            ]}
+            speed={50}
+            repeat={Infinity}
+          />
           </h1>
 
           {/* Animated Button */}
